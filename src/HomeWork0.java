@@ -207,23 +207,32 @@ public class HomeWork0 {
 
     static void task13() {
 
-        for (int i = 1; i < 10; i++) {
+        int a = 4;
+        int b = 9;
+        int n = 0;
+        for (int i = a; i <= b; i++) {
             System.out.println(i);
+            n++;
         }
+        System.out.println("Количество чисел: " + n);
+
     }
 
     static void task14() {
         int sum = 0;
-        for (int i = 1; i <= 15; i++) {
+        int a = 3;
+        int b = 9;
+        for (int i = a; i <= b; i++) {
             sum = sum + i;
         }
         System.out.println("Сумма чисел " + sum);
     }
 
     static void task15() {
+        int n = 7;
         int mult = 1;
-        for (int n = 7; n > 0; n--) {
-            mult = mult * n;
+        for (int i = n; i > 0; i--) {
+            mult = mult * i;
         }
         System.out.println("Произведение чисел " + mult);
     }
@@ -240,7 +249,7 @@ public class HomeWork0 {
     static void task17() {
         int n = 10;
         int k = 0;
-        while (3 * k < n) {
+        while (3 * k <= n) {
             k++;
         }
         System.out.println("Наименьшее число " + k);
@@ -261,10 +270,12 @@ public class HomeWork0 {
         int a = 1;
         int b = 5;
         for (int i = a; i <= b; i++) {
-            for (int j = 1; j < i; j++) {
+            for (int j = a; j < i; j++) {
                 System.out.print(i);
             }
             System.out.println(i);
         }
+
+
     }
 }
