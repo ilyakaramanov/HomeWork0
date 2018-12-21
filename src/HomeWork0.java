@@ -22,12 +22,18 @@ public class HomeWork0 {
         task19();
     }
 
+    /*
+    Вычисление площади квадрата
+     */
     static void task1() {
         int a = 3;
         int S = a * a;
         System.out.println("Площадь " + S);
     }
 
+    /*
+    Высчение расстояние между автомобилями через определенное время
+     */
     static void task2() {
         int V1 = 50;
         int V2 = 55;
@@ -37,10 +43,13 @@ public class HomeWork0 {
         System.out.println("Расстояние " + Math.abs(S2));
     }
 
+    /*
+    Вычисление корней квадратного уравнения
+     */
     static void task3() {
-        int a = 10;
-        int b = 5;
-        int c = 2;
+        int a = 3;
+        int b = 7;
+        int c = 10;
         double x1 = 0;
         double x2 = 0;
         int d = b * b - 4 * a * c;
@@ -55,6 +64,9 @@ public class HomeWork0 {
 
     }
 
+    /*
+    Операции с числом
+     */
     static void task4() {
         int a = 5;
         if (a > 0) {
@@ -67,6 +79,9 @@ public class HomeWork0 {
         System.out.println(a);
     }
 
+    /*
+    Вычисление суммы двух наибольших чисел
+     */
     static void task5() {
         int a = 5;
         int b = 3;
@@ -94,7 +109,9 @@ public class HomeWork0 {
 
     }
 
-
+    /*
+    Вывести строку с описанием числа
+     */
     static void task6() {
         int n = 3;
         if (n == 0) {
@@ -116,6 +133,9 @@ public class HomeWork0 {
         }
     }
 
+    /*
+    Проверка неравенства
+     */
     static void task7() {
         int a = 4;
         int b = 3;
@@ -126,6 +146,9 @@ public class HomeWork0 {
         }
     }
 
+    /*
+    Проверка неравенства
+     */
     static void task8() {
         int a = 23;
         int b = 54;
@@ -137,6 +160,9 @@ public class HomeWork0 {
         }
     }
 
+    /*
+    Найти число, которое отличается от других
+     */
     static void task9() {
         int a = 3;
         int b = 3;
@@ -153,6 +179,9 @@ public class HomeWork0 {
         }
     }
 
+    /*
+    Вывести строку описание, которое соотвествует числу k
+     */
     static void task10() {
         int k = 5;
         if (k == 1) {
@@ -170,6 +199,9 @@ public class HomeWork0 {
         }
     }
 
+    /*
+    Вывести время года
+     */
     static void task11() {
         int m = 12;
         if (m == 12 || m == 1 || m == 2) {
@@ -185,6 +217,9 @@ public class HomeWork0 {
         }
     }
 
+    /*
+    Выполнить действие над числом
+     */
     static void task12() {
         int n = 4;
         int a = 88;
@@ -205,6 +240,9 @@ public class HomeWork0 {
         }
     }
 
+    /*
+    Вывести в порядке возрастания числа между A и B
+     */
     static void task13() {
 
         int a = 4;
@@ -218,6 +256,9 @@ public class HomeWork0 {
 
     }
 
+    /*
+    Найти сумму чисел в диапазоне
+     */
     static void task14() {
         int sum = 0;
         int a = 3;
@@ -228,6 +269,9 @@ public class HomeWork0 {
         System.out.println("Сумма чисел " + sum);
     }
 
+    /*
+    Произведение чисел из диапазона
+     */
     static void task15() {
         int n = 7;
         int mult = 1;
@@ -237,6 +281,9 @@ public class HomeWork0 {
         System.out.println("Произведение чисел " + mult);
     }
 
+    /*
+    Найти длину незанятой части отрезка
+     */
     static void task16() {
         int a = 15;
         int b = 4;
@@ -246,6 +293,9 @@ public class HomeWork0 {
         System.out.println("Длина незанятой части " + a);
     }
 
+    /*
+    Найти наименьшее число, при котором выполняется равенство
+     */
     static void task17() {
         int n = 10;
         int k = 0;
@@ -255,8 +305,10 @@ public class HomeWork0 {
         System.out.println("Наименьшее число " + k);
     }
 
+    /*
+    Вывести цифры, начиная с самой правой
+     */
     static void task18() {
-
         int n = 87634;
         int i = 0;
         while (n % 10 != 0) {
@@ -266,6 +318,10 @@ public class HomeWork0 {
         }
     }
 
+    /*
+    Вывести числа из диапазона. П
+    ри этом число A должно выводиться 1 раз, число A + 1 должно выводиться 2 раза и т.д
+     */
     static void task19() {
         int a = 1;
         int b = 5;
