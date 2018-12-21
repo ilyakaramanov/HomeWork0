@@ -1,6 +1,10 @@
 public class HomeWork0 {
 
     public static void main(String[] args) {
+
+        /*
+        Запуск всех методов
+        */
         task1();
         task2();
         task4();
